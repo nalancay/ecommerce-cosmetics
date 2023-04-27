@@ -1,0 +1,15 @@
+.contactContainer {
+  display: flex;
+  flex-direction: column;
+
+  gap: 32px;
+  padding: 52px 124px;
+  width: 100%;
+  min-height: calc(100vh - 185px - 72px);
+}
+
+.socialMedia {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}

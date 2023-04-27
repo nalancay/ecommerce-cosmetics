@@ -1,0 +1,13 @@
+.storeContainer {
+  display: flex;
+  flex-direction: column;
+
+  padding: 52px 124px;
+  width: 100%;
+  min-height: calc(100vh - 185px - 72px);
+}
+
+.storeContainer h2 {
+  font-size: 24px;
+  font-weight: 600;
+}

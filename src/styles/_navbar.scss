@@ -1,0 +1,63 @@
+.NavBar-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  box-sizing: border-box;
+  height: 72px;
+  width: 100%;
+  background-color: #ffb0ce;
+  transition: background-color 0.5s ease;
+}
+
+.NavBar-top > img {
+  height: 54px;
+  padding-left: 72px;
+}
+.NavBar-top:hover {
+  transition: background-color 0.5s ease;
+}
+.OptionsNavBar {
+  display: flex;
+  gap: 20px;
+}
+
+.OptionsNavBar li {
+  list-style: none;
+}
+.navOption {
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+  letter-spacing: 2px;
+  font-variant: small-caps;
+}
+.OptionsNavBar li:hover {
+  cursor: pointer;
+  text-decoration: underline solid 1px;
+  text-underline-offset: 6px;
+}
+
+.hamburgerIcon {
+  display: none;
+  cursor: pointer;
+}
+
+@media (max-width: 720px) {
+  .hamburgerIcon {
+    display: inline;
+    margin-left: 15px;
+  }
+
+  .OptionsNavBar {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 70px;
+    left: 0px;
+    background-color: #ffb0ce;
+    height: 100vh;
+    padding: 15px;
+    padding-right: 50px;
+  }
+}

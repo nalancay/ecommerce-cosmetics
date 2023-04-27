@@ -1,0 +1,35 @@
+@import "colors";
+@import "fonts";
+@import "app";
+@import "navbar";
+@import "itemCart";
+@import "buttons";
+@import "cartWidget";
+@import "cartMenu";
+@import "home";
+@import "footer";
+@import "contact";
+@import "aboutUs";
+@import "itemListContainer";
+@import "categoryNav";
+@import "itemList";
+@import "itemLoader";
+@import "item";
+@import "itemCount";
+@import "itemDetailContainer";
+@import "itemDetail";
+@import "itemError";
+@import "itemDetailLoader";
+@import "payment";
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  background: #fef4dc;
+  font-family: "Roboto", sans-serif;
+}
